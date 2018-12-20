@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textview_wubianbianneibaikuang30"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="600px"
+        android:layout_height="420px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+    <ImageView
+        android:layout_width="168px"
+        android:layout_height="168px"
+        android:layout_marginTop="73px"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/ok"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:text="支付成功！"
+        android:textColor="@color/hei_color1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="251px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffb2b2b2"
+        android:textSize="26px"
+        android:text="请稍等，商品正在出货..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="317px"
+        />
+    </RelativeLayout>
+</RelativeLayout>

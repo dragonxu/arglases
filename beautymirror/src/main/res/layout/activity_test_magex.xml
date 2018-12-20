@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:id="@+id/topbar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="70px"
+        android:background="#CDCDB4" >
+
+        <TextView
+            android:id="@+id/titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:text="Magex货道测试"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="返回"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_back"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="清空测试结果"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/btn_getstatus"
+            android:layout_width="140px"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_clear"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="获取状态"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/btn_gettemp"
+            android:layout_width="140px"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_getstatus"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="获取温度"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/input_title01"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="10px"
+        android:layout_below="@+id/topbar_title"
+        android:background="@drawable/testone" >
+
+
+        <TextView
+            android:id="@+id/vmcode_titlename2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:text="全体或单层"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            />
+
+        <Spinner android:id="@+id/SpinnerOneLevel"
+            android:layout_toRightOf="@+id/vmcode_titlename2"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"></Spinner>
+        <TextView
+            android:id="@+id/forleveltv"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18px"
+            android:layout_marginLeft="10px"
+            android:text="循环次数:"
+            android:layout_toRightOf="@+id/SpinnerOneLevel"
+            android:textColor="#ff0000"
+            android:textSize="22sp"
+            />
+        <Spinner android:id="@+id/SpinnerFor"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10dp"
+            android:layout_width="120dp"
+            android:layout_toRightOf="@+id/forleveltv"
+            android:layout_height="wrap_content"></Spinner>
+
+
+        <Button
+            android:id="@+id/onelevel_bt"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="测试"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/input_title02"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="10px"
+        android:layout_below="@+id/input_title01"
+        android:background="@drawable/testone" >
+
+
+        <TextView
+            android:id="@+id/vmcode_titlename3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:text="单个货道"
+            android:textColor="#555"
+            android:textSize="24sp"
+            />
+
+        <Spinner android:id="@+id/SpinnerOneTrack"
+            android:layout_toRightOf="@+id/vmcode_titlename3"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/onetrack_bt"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="测试"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/onetrackreset_bt"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/onetrack_bt"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="此货道复位"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/onetrackallreset_bt"
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/onetrackreset_bt"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="此层货道复位"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/input_title022"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:layout_marginTop="10px"
+        android:layout_below="@+id/input_title02"
+        android:background="@drawable/testone" >
+
+
+        <TextView
+            android:id="@+id/errotrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:text="故障轨道:"
+            android:textColor="#787878"
+            android:textSize="24sp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/input_title04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="12px"
+        android:layout_below="@+id/input_title022"
+        android:textColor="@android:color/black"
+        android:text="测试结果"
+        android:textSize="24sp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/input_title05"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="0px"
+        android:layout_marginBottom="50px"
+        android:layout_below="@+id/input_title04"
+        android:background="@drawable/testmulti" >
+
+        <EditText
+            android:id="@+id/test_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:gravity="top"
+            android:maxLines="58"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:enabled="false"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/hintinfo"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0px"
+        android:paddingLeft="4px"
+        android:gravity="left"
+        android:text=""
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        />
+
+
+</RelativeLayout>

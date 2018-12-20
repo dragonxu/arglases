@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:id="@+id/topbar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="70px"
+        android:background="#CDCDB4" >
+
+        <TextView
+            android:id="@+id/titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10px"
+            android:text="修改眼镜名称和设定价格"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="返回"
+            android:textSize="26sp"
+            android:textColor="@android:color/black"/>
+
+
+    </RelativeLayout>
+
+   <!-- <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/topbar_title"
+        android:background="@null"
+        android:divider="#000"
+        android:dividerHeight="2dp"
+        android:layout_marginBottom="4dp">
+    </ListView>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="70px"
+        android:layout_marginBottom="4dp"
+        ></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

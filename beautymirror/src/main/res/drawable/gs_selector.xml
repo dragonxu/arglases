@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <item android:drawable="@drawable/gbs400" android:state_pressed="true"/>
+    <!-- pressed -->
+    <item android:drawable="@drawable/gbs400" android:state_selected="true"/>
+    <!-- selected -->
+    <item android:drawable="@drawable/gb400"/>
+    <!-- default -->
+
+</selector>

@@ -1,0 +1,19 @@
+Mouth=true
+Eyeshadow=true
+Blush=true
+Eyeline=true
+Eyebrow=true
+Eyelash=true
+Powdery=true
+Glasses=true
+Contactlenses=false
+
+#[Eyebrow]         => Ã¼Ã«
+#[Eyeline]         => ÑÛÏß
+#[Eyeshadow]       => ÑÛÓ°
+#[Eyelash]         => ½ÞÃ«
+#[Blush]           => Èùºì
+#[Mouth]           => ¿Úºì
+#[Glasses]         => ÑÛ¾µ
+#[Contactlenses]   => ÃÀÍ«   PanxsoftMainTex   +   PanxsoftMuliply   +   PanxsoftSoftLight
+#[Powdery]         => µ××±(·Ûµ×)

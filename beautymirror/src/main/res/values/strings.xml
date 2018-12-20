@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">beautymirror</string>
+
+    <style name="doing_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/doing_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

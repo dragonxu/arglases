@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="600px"
+        android:layout_height="400px"
+        android:background="@drawable/textview_wubianbianneibaikuang30">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:text="请输入新的名称"
+            android:gravity="center"
+            android:textSize="40px"
+            android:textColor="@color/lan_color1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/hui_color3"
+            android:layout_marginTop="90px"/>
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:hint="请输入:"
+            android:textColor="@color/hui_color3"
+            android:textSize="32px"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/hui_color3"
+            android:layout_marginBottom="90px"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="299px"
+            android:layout_height="90px"
+            android:layout_alignParentBottom="true"
+            android:textSize="36px"
+            android:textColor="@color/lan_color1"
+            android:text="取消"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="2px"
+            android:layout_height="90px"
+            android:layout_marginLeft="299px"
+            android:background="@color/lan_color1"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="299px"
+            android:layout_height="90px"
+            android:layout_alignParentBottom="true"
+            android:textSize="36px"
+            android:textColor="@color/lan_color1"
+            android:layout_alignParentRight="true"
+            android:text="确定"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

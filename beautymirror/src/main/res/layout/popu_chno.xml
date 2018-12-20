@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="580px"
+    android:layout_height="400px"
+    android:background="@drawable/textview_wubianbianneibaikuang30">
+
+    <ImageView
+        android:layout_width="290px"
+        android:layout_height="190px"
+        android:background="@mipmap/chok"
+        android:layout_marginTop="54px"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270px"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff68c88"
+        android:textSize="30px"
+        android:text="出货失败..."
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="323px"
+        android:textSize="24px"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff68c88"
+        android:text="请尝试重新购买"
+        />
+
+</RelativeLayout>

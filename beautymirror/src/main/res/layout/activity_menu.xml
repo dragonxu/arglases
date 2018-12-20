@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/connectingiv"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:scaleType="fitXY"
+        android:src="@drawable/loading"
+        android:contentDescription=""
+        />
+
+    <Button
+        android:id="@+id/toTest"
+        android:layout_width="400px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="测试"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/toName"
+        android:layout_width="400px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toTest"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="修改眼镜名称和设定价格"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/toStock"
+        android:layout_width="400px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toName"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="选择眼镜和设定库存"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision11020"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴11020"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision11021"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision11020"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴11021"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision03042"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision11021"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴03042"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision03044"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision03042"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴03044"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision03051"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision03044"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴03051"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision03060"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision03051"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴03060"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision05222"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision03060"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴05222"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision05223"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision05222"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴05223"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision05224"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision05223"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴05224"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/toVision05226"-->
+    <!--android:layout_width="400px"-->
+    <!--android:layout_height="80px"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="20px"-->
+    <!--android:layout_marginTop="20px"-->
+    <!--android:layout_below="@+id/toVision05224"-->
+    <!--android:gravity="center"-->
+    <!--android:text="试戴05226"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textColor="@android:color/black"/>-->
+
+    <Button
+        android:id="@+id/toBack"
+        android:layout_width="400px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4px"
+        android:layout_marginLeft="4px"
+        android:gravity="center"
+        android:text="返回"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+
+    <Button
+        android:id="@+id/toFinish"
+        android:layout_width="400px"
+        android:layout_height="80px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4px"
+        android:layout_marginRight="4px"
+        android:gravity="center"
+        android:text="退出"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>

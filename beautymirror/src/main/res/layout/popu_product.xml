@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/re2"
+        android:layout_width="479px"
+        android:layout_height="1116px"
+
+
+        >
+        <ImageView
+            android:id="@+id/shou"
+            android:layout_width="39px"
+            android:layout_height="96px"
+            android:layout_marginTop="532px"
+            android:background="@mipmap/suo"/>
+
+        <RelativeLayout
+            android:layout_width="440px"
+            android:layout_height="1116px"
+            android:background="@drawable/textview_youneibaikuang"
+            android:layout_alignParentRight="true"
+            >
+            <com.ruffian.library.widget.RImageView
+                android:id="@+id/image"
+                android:layout_width="130px"
+                android:layout_height="130px"
+                android:layout_marginTop="22px"
+                android:layout_marginLeft="31px"
+                app:border_width="2px"
+                app:border_color="@color/hui_color3"
+                app:corner_radius="6px"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image"
+                android:layout_marginTop="38px"
+                android:layout_marginLeft="9px"
+                android:textSize="22px"
+                android:textColor="#ff333333"
+                android:text="音米文艺眼镜框韩版明星复古圆框眼镜框"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="126px"
+                android:layout_marginLeft="161px"
+                android:textSize="26px"
+                android:textColor="#ff333333"
+                android:text="￥170"
+                />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="191px"
+                android:layout_marginLeft="24px">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recy1"
+                android:layout_marginTop="6px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px">
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

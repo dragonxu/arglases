@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/connectingiv"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:scaleType="fitXY"
+        android:src="@drawable/loadingback"
+        android:contentDescription=""
+        />
+
+    <TextView
+        android:id="@+id/hintinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4px"
+        android:gravity="left"
+        android:text=""
+        android:textColor="#353535"
+        android:textSize="28sp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rela1"
+    tools:context="com.panxsoft.xiaojingxiuxiu.MainActivity">
+
+    <Button
+        android:id="@+id/toBack"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:text="back"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/zhezhao"
+        android:layout_width="match_parent"
+        android:layout_height="1170px"
+        android:background="@drawable/g03042"
+        android:scaleType="fitXY"/>
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="1557px"
+        android:layout_height="1168px"
+        >
+        <com.panxsoft.xiaojingxiuxiu.utils.VerticalSeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="44px"
+            android:layout_height="532px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="44px"
+            android:layout_marginTop="243px"
+            android:minWidth="14px"
+            android:minHeight="14px"
+            android:maxHeight="14px"
+            android:maxWidth="14px"
+            android:progressDrawable="@drawable/seekbar_bg"
+            android:thumb="@drawable/custom_seekbar_thumb"
+
+ />
+        <ImageView
+            android:id="@+id/popu"
+            android:layout_width="72px"
+            android:layout_height="72px"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="803px"
+            android:background="@mipmap/popup"/>
+        <RelativeLayout
+            android:id="@+id/particulars"
+            android:layout_width="164px"
+            android:layout_height="90px"
+            android:background="@mipmap/liftju"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="1048px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14px"
+                android:textSize="24px"
+                android:layout_centerVertical="true"
+                android:text="商品详情>"
+                android:textColor="#FFAEABEC"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy"
+        android:layout_width="546px"
+        android:layout_height="90px"
+        android:layout_marginTop="1048px"
+        android:layout_centerHorizontal="true"></android.support.v7.widget.RecyclerView>
+
+
+
+
+    <!--<RelativeLayout
+        android:id="@+id/re2"
+        android:layout_width="479px"
+        android:layout_height="1116px"
+        android:layout_marginTop="22px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-479px"
+        >
+        <ImageView
+            android:id="@+id/shou"
+            android:layout_width="39px"
+            android:layout_height="96px"
+            android:layout_marginTop="532px"
+            android:background="@mipmap/suo"/>
+
+        <RelativeLayout
+            android:layout_width="440px"
+            android:layout_height="1116px"
+            android:background="@drawable/textview_youneibaikuang"
+            android:layout_alignParentRight="true"
+            >
+            <com.ruffian.library.widget.RImageView
+                android:id="@+id/image"
+                android:layout_width="130px"
+                android:layout_height="130px"
+                android:layout_marginTop="22px"
+                android:layout_marginLeft="31px"
+                app:border_width="2px"
+                app:border_color="@color/hui_color3"
+                app:corner_radius="6px"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image"
+                android:layout_marginTop="38px"
+                android:layout_marginLeft="9px"
+                android:textSize="22px"
+                android:textColor="#ff333333"
+                android:text="音米文艺眼镜框韩版明星复古圆框眼镜框"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="126px"
+                android:layout_marginLeft="161px"
+                android:textSize="26px"
+                android:textColor="#ff333333"
+                android:text="￥170"
+                />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="191px"
+                android:layout_marginLeft="24px">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recy1"
+                android:layout_marginTop="6px"
+                android:layout_marginLeft="24px"
+                android:layout_marginRight="24px">
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </RelativeLayout>-->
+
+
+
+
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="752px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_picture">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="650px"></android.support.v4.view.ViewPager>
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="62px"
+            android:layout_height="62px"
+            android:background="@mipmap/zuo"
+            android:layout_below="@id/banner"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28px"
+            android:layout_marginLeft="420px"/>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="104px"
+            android:layout_height="62px"
+            android:gravity="center"
+            android:layout_below="@id/banner"
+            android:layout_toRightOf="@id/left"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28px"
+            android:text="1"
+            android:textColor="@color/hei_color1"/>
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="62px"
+            android:layout_height="62px"
+            android:background="@mipmap/you"
+            android:layout_below="@id/banner"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28px"
+            android:layout_toRightOf="@id/text"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+
+
+        <Button
+            android:id="@+id/toDelivery"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:gravity="center"
+            android:text="Delivery"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/toPay"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            android:gravity="center"
+            android:text="Pay"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/salerl"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/pricetv"
+                android:layout_width="match_parent"
+                android:layout_height="30px"
+                android:layout_marginTop="10px"
+                android:gravity="center"
+                android:text="1.00"
+                android:textColor="#555"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:id="@+id/gd_qrcode_alipay"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@+id/pricetv"
+                android:layout_marginLeft="120px"
+                android:layout_marginTop="20px"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iconalipay"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_alignLeft="@+id/gd_qrcode_alipay"
+                android:layout_alignTop="@+id/gd_qrcode_alipay"
+                android:layout_marginLeft="124px"
+                android:layout_marginTop="124px"
+                android:contentDescription=""
+                android:src="@drawable/alipay" />
+
+            <TextView
+                android:id="@+id/alipaytishi"
+                android:layout_width="300px"
+                android:layout_height="30px"
+                android:layout_alignLeft="@+id/gd_qrcode_alipay"
+                android:layout_below="@+id/gd_qrcode_alipay"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:gravity="center"
+                android:text="正在连接服务器..."
+                android:textColor="#555"
+                android:textSize="26sp" />
+
+
+            <ImageView
+                android:id="@+id/gd_qrcode_weixin"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:layout_below="@+id/pricetv"
+                android:layout_marginLeft="660px"
+                android:layout_marginTop="20px"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iconweixin"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_alignLeft="@+id/gd_qrcode_weixin"
+                android:layout_alignTop="@+id/gd_qrcode_weixin"
+                android:layout_marginLeft="124px"
+                android:layout_marginTop="124px"
+                android:contentDescription=""
+                android:src="@drawable/iconweixin" />
+
+            <TextView
+                android:id="@+id/weixintishi"
+                android:layout_width="300px"
+                android:layout_height="40px"
+                android:layout_alignLeft="@+id/gd_qrcode_weixin"
+                android:layout_below="@+id/gd_qrcode_weixin"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:gravity="center"
+                android:text="正在连接服务器..."
+                android:textColor="#555"
+                android:textSize="26sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/id_linear_capture_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/loading_iv_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_linear_capture_under"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/loading_iv_bottm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

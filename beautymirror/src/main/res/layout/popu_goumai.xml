@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="620px"
+    android:layout_height="436px"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="620px"
+        android:layout_height="436px"
+
+        android:background="@drawable/textview_wubianbianneibaikuang30">
+        <ImageView
+            android:id="@+id/cuo"
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_marginLeft="567px"
+            android:layout_marginTop="28px"/>
+    <com.ruffian.library.widget.RImageView
+        android:id="@+id/image"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        app:border_color="@color/hui_color3"
+        app:corner_radius="16px"
+        app:border_width="2px"
+        android:layout_marginTop="70px"
+        android:layout_marginLeft="40px"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="206px"
+            android:layout_marginTop="81px"
+            android:textSize="22px"
+            android:textColor="#ff333333"
+            android:layout_marginRight="40px"
+            android:text="音米文艺眼镜框韩版明星复古圆框眼镜框"/>
+
+        <View
+            android:layout_width="550px"
+            android:layout_height="1px"
+            android:layout_marginLeft="36px"
+            android:layout_marginTop="266px"
+            android:background="@color/hui_color3"/>
+
+        <TextView
+            android:id="@+id/zhifu"
+            android:layout_width="160px"
+            android:layout_height="56px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:layout_marginTop="300px"
+            android:background="@mipmap/ju"
+            android:textSize="26px"
+            android:textColor="@color/white"
+            android:text="立即支付"
+            android:gravity="center"/>
+        
+        <TextView
+            android:id="@+id/jiage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="307px"
+            android:layout_toLeftOf="@id/zhifu"
+            android:layout_marginRight="20px"
+            android:textColor="#ff333333"
+            android:textSize="32px"
+            android:text="￥170.00"/>
+
+        <TextView
+            android:id="@+id/jishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="386px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:textColor="#ffb2b2b2"
+            android:textSize="20px"
+            android:text="（90秒后关闭）"/>
+    </RelativeLayout>
+</RelativeLayout>

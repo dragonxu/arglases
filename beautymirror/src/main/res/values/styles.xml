@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+
+    <style name="activityTheme" parent="@android:style/Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 右側的dialog弹出的动画样式-->
+    <style name="BottomDialogWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+</resources>
